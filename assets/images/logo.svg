@@ -1,0 +1,17 @@
+<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
+	<!-- Text -->
+	<text x="10" y="50" font-family="monospace" font-size="30" fill="black">linked-ea</text>
+
+	<!-- ArchiMate layers -->
+	<!-- Business Layer (yellow) -->
+	<rect x="250" y="40" width="20" height="40" fill="#FFFF00" />
+	<!-- Application Layer (blue) -->
+	<rect x="250" y="80" width="20" height="40" fill="#0079BF" />
+	<!-- Business Layer (yellow) -->
+	<rect x="290" y="40" width="20" height="40" fill="#FFFF00" />
+	<!-- Application Layer (blue) -->
+	<rect x="290" y="80" width="20" height="40" fill="#0079BF" />
+	<!-- Motivation Layer (purple) -->
+	<rect x="330" y="60" width="40" height="60" fill="#9261AA" />
+  </svg>
+
