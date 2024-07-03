@@ -16,7 +16,6 @@ permalink: /exchange-format
 {:toc}
 
 ---
-
 ## Format
 
 ## Validation

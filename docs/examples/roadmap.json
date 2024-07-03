@@ -1,0 +1,57 @@
+{
+  "model": {
+    "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/model",
+    "modelIdentifier": "http://www.linked-ea.org/template/roadmap/alpha-1",
+    "identifier": "http://www.linked-ea.org/template/roadmap#alpha-1",
+    "name": {
+      "en": "Linked EA Roadmap Template"
+    },
+    "documentation": {
+      "en": "Template to support the development of a strategic roadmap using Linked EA specification."
+    },
+    "info": {
+      "base": "http://www.linked-ea.org/template/roadmap#",
+      "version": 1,
+      "language": "en",
+      "date": "2024-06-01",
+      "currency": "USD",
+      "colorPalette": {
+        "Strategy": {
+          "r": 229,
+          "g": 168,
+          "b": 46
+        },
+        "Business": {
+          "r": 248,
+          "g": 218,
+          "b": 98
+        },
+        "Application": {
+          "r": 146,
+          "g": 184,
+          "b": 100
+        },
+        "Technology": {
+          "r": 159,
+          "g": 179,
+          "b": 148
+        },
+        "Motivation": {
+          "r": 179,
+          "g": 168,
+          "b": 184
+        },
+        "Implementation & Migration": {
+          "r": 233,
+          "g": 167,
+          "b": 161
+        },
+        "Composite": {
+          "r": 194,
+          "g": 247,
+          "b": 199
+        }
+      }
+    }
+  }
+}

@@ -10,6 +10,16 @@ has_children: true
 
 Model Resources are "data objects" which include [Archimate]
 
+The linked-ea Exchange File Format [20] defines how these resources are encoded and exchanged.
+
+## Features
+
+| Feature         | Requirement         | Description |
+|:----------------|:--------------------|:------------|
+| Name            | Mandatory           |             |
+| Documentation   | Optional            |             |
+| Properties      | Optional            |             |
+
 ## Resource Identifiers
 
 * Resources should be uniquely identified within and outside the model

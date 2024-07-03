@@ -1,17 +1,29 @@
 title: linked-EA
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: Linking Enterprise Architecture Information
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://linked-ea.github.io
 
 # Set a path/url to a logo that will be displayed instead of the title
-# logo: "/assets/images/small-image.jpg"
+# logo: "/assets/images/logo.jpg"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub: https://github.com/linked-ea
 
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
 
-  # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+# External links
+hide_icon: true # set to true to hide the external link icon - defaults to false
+
+# External navigation links
+nav_external_links:
+  - title: Just the Docs on GitHub
+    url: https://github.com/just-the-docs/just-the-docs
+    hide_icon: true # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
 
 callouts_level: quiet # or loud
@@ -30,3 +42,12 @@ callouts:
   warning:
     title: Warning
     color: red
+
+# Footer content
+# appears at the bottom of every page's main content
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
+footer_content: "Copyright &copy; 2024-2024 Luis Pellicano. Distributed by an <a href=\"https://github.com/linked-ea/linked-ea.github.io/LICENSE.txt\">MIT license.</a> <a href=\"https://www.opengroup.org\">ArchiMate® is a registered trademark of The Open Group.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html

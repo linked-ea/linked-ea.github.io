@@ -1,0 +1,337 @@
+{
+  "model": {
+    "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/model",
+    "modelIdentifier": "http://x.y.z/",
+    "identifier": "http://this.is.base/path#model1",
+    "name": {
+      "en": "model 1"
+    },
+    "documentation": {
+      "en": "documentation goes here"
+    },
+    "info": {
+      "base": "http://this.is.base/path#",
+      "version": 1,
+      "language": "en",
+      "date": "2024-01-01",
+      "currency": "USD",
+      "colorPalette": {
+        "Strategy": {
+          "r": 229,
+          "g": 168,
+          "b": 46
+        },
+        "Business": {
+          "r": 248,
+          "g": 218,
+          "b": 98
+        },
+        "Application": {
+          "r": 146,
+          "g": 184,
+          "b": 100
+        },
+        "Technology": {
+          "r": 159,
+          "g": 179,
+          "b": 148
+        },
+        "Motivation": {
+          "r": 179,
+          "g": 168,
+          "b": 184
+        },
+        "Implementation & Migration": {
+          "r": 233,
+          "g": 167,
+          "b": 161
+        },
+        "Composite": {
+          "r": 194,
+          "g": 247,
+          "b": 199
+        }
+      }
+    }
+  },
+  "modelReferences": {
+    "http://this.is.base/path#reference1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/modelReference",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#reference1",
+      "name": {
+        "en": "reference 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "service": "http://x.y.z/"
+      }
+    }
+  },
+  "propertyDefs": {
+    "http://this.is.base/path#costPropertyDef": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/propertyDef",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#costPropertyDef",
+      "name": {
+        "en": "cost"
+      },
+      "documentation": {
+        "en": "cost of the item"
+      },
+      "info": {
+        "type": "currency",
+        "defaultValue": 0,
+        "minimum": 0,
+        "maximum": 10000000
+      }
+    }
+  },
+  "images": {
+    "http://this.is.base/path#image1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/image",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#image1",
+      "name": {
+        "en": "image 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "mimeType": "image/svg+xml",
+        "encode": "PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCIgLz4KPC9zdmc+"
+      }
+    },
+    "http://this.is.base/path#image2": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/image",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#image1",
+      "name": {
+        "en": "image 2"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "mimeType": "image/svg+xml",
+        "encode": "PHN2ZyB2aWV3Qm94PSIwIDAgMjIwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxMjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiByeD0iMTUiIC8+Cjwvc3ZnPgo="
+      }
+    }
+  },
+  "profiles": {
+    "http://this.is.base/path#profile1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/profile",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#profile1",
+      "name": {
+        "en": "profile 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "propertyDefs": {
+          "http://this.is.base/path#costPropertyDef": {
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "specializations": {
+    "http://this.is.base/path#specialization1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/specialization",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#specialization1",
+      "name": {
+        "en": "specialization 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "concept": "http://www.opengroup.org/xsd/archimate/3.0/ApplicationComponent",
+        "imageRef": "http://this.is.base/path#image2",
+        "profiles": {
+          "http://this.is.base/path#profile1": {
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "elements": {
+    "http://this.is.base/path#element1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/element",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#element1",
+      "name": {
+        "en": "element 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "type": "http://www.opengroup.org/xsd/archimate/3.0/ApplicationComponent"
+      },
+      "properties": {
+        "http://this.is.base/path#costPropertyDef": 1000.01
+      }
+    },
+    "http://this.is.base/path#element2": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/element",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#element2",
+      "name": {
+        "en": "element 2"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "specializationRef": "http://this.is.base/path#specialization1",
+        "imageRef": "http://this.is.base/path#image1"
+      },
+      "properties": {
+        "http://this.is.base/path#costPropertyDef": 1000.01
+      }
+    }
+  },
+  "relationships": {
+    "http://this.is.base/path#relationship1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/relationship",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#relationship1",
+      "name": {
+        "en": "relationship 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "type": "http://www.opengroup.org/xsd/archimate/3.0/Association",
+        "source": "http://this.is.base/path#element1",
+        "target": "http://this.is.base/path#element1"
+      }
+    }
+  },
+  "viewpoints": {
+    "http://this.is.base/path#viewpoint1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/viewpoint",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#viewpoint1",
+      "name": {
+        "en": "viewpoint 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "viewpointPurpose": [
+          "Designing"
+        ],
+        "viewpointContent": "Details",
+        "stakeholders": [
+          {
+            "en": "stakeholder1"
+          },
+          {
+            "en": "stakeholder2"
+          }
+        ],
+        "modelingNote": [
+          {
+            "en": "modeling note 1"
+          },
+          {
+            "en": "modeling note 2"
+          }
+        ]
+      }
+    }
+  },
+  "views": {
+    "http://this.is.base/path#view1": {
+      "resourceClass": "http://www.opengroup.org/xsd/archimate/3.0/view",
+      "modelIdentifier": "http://x.y.z/",
+      "identifier": "http://this.is.base/path#view1",
+      "name": {
+        "en": "view 1"
+      },
+      "documentation": {
+        "en": "documentation goes here"
+      },
+      "info": {
+        "viewpointRef": "http://this.is.base/path#viewpoint1",
+        "items": {
+          "http://this.is.base/path#view1_label1": {
+            "type": "Label",
+            "x": 100,
+            "y": 100,
+            "h": 50,
+            "w": 100,
+            "label": {
+              "en": "label 1"
+            }
+          },
+          "http://this.is.base/path#view1_node2": {
+            "type": "Element",
+            "x": 300,
+            "y": 100,
+            "h": 50,
+            "w": 100,
+            "elementRef": "http://this.is.base/path#element1",
+            "figure": true
+          },
+          "http://this.is.base/path#view1_node3": {
+            "type": "Element",
+            "x": 500,
+            "y": 100,
+            "h": 50,
+            "w": 100,
+            "elementRef": "http://this.is.base/path#element1",
+            "imageRef": "http://this.is.base/path#image1"
+          },
+          "http://this.is.base/path#view1_node4": {
+            "type": "Element",
+            "x": 700,
+            "y": 100,
+            "h": 50,
+            "w": 100,
+            "elementRef": "http://this.is.base/path#element2"
+          },
+          "http://this.is.base/path#view1_line1": {
+            "type": "Line",
+            "sourceNode": "http://this.is.base/path#view1_label1",
+            "targetNode": "http://this.is.base/path#view1_node1",
+            "sourceAttachment": {
+              "x": 200,
+              "y": 125
+            },
+            "targetAttachment": {
+              "x": 300,
+              "y": 125
+            }
+          },
+          "http://this.is.base/path#view1_relationship1": {
+            "type": "Relationship",
+            "sourceNode": "http://this.is.base/path#view1_node2",
+            "targetNode": "http://this.is.base/path#view1_node3",
+            "sourceAttachment": {
+              "x": 400,
+              "y": 125
+            },
+            "targetAttachment": {
+              "x": 500,
+              "y": 125
+            },
+            "relationshipRef": "http://this.is.base/path#relationship1"
+          }
+        }
+      }
+    }
+  }
+}

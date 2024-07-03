@@ -7,3 +7,6 @@ nav_order: 3
 
 # Property Definition
 {: .no_toc }
+
+Alpha Release
+{: .label .label-yellow }

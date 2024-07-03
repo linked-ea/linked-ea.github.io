@@ -15,8 +15,18 @@ has_children: false
 | Archi Viewpoints        | Tool-specific Viewpoints               | Alpha             |
 | Amazon Web Services     | Specializations and images             | Alpha             |
 | [C4 Model]              | Images, Specializations, Viewpoints    | Roadmap           |
-| [APQC]                    | Business Capability Model            | Roadmap           |
+| [APQC]                  | Business Capability Model            | Roadmap           |
 | [ACORD]                 | Business Capability Model              | Roadmap           |
+
+
+##  Linked-EA Sample and Templates
+
+| Model                                            | Contents                               | Status            |
+|:-------------------------------------------------|:---------------------------------------|:------------------|
+| [Reference Model](examples/reference-model.json) | Information, Testing                   | Under Development |
+| [Roadmap](examples/roadmap.json)                 | Strategic Roadmap Development          | Under Development |
+
+
 
 [ACORD]: https://www.acord.org
 [APQC]: https://www.apqc.org

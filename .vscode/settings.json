@@ -1,0 +1,9 @@
+{
+	"cSpell.words": [
+		"Archimate",
+		"metamodel"
+	],
+	"yaml.schemas": {
+		"https://json.schemastore.org/jekyll.json": "file:///Users/luis/Documents/GitHub/linked-ea/packages/linked-ea.github.io/_config.yml"
+	}
+}

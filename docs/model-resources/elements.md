@@ -8,17 +8,17 @@ nav_order: 6
 # Element
 {: .no_toc }
 
-The resource aligned with [ArchiMate® 3.2 Specification](https://pubs.opengroup.org/architecture/archimate3-doc/index.html) and is semantically compatible with Element concept part of [ArchiMate® 3.2 Language Structure](https://pubs.opengroup.org/architecture/archimate3-doc/ch-Language-Structure.html).
+Alpha Release
+{: .label .label-yellow }
+
+The resource is aligned with [ArchiMate® 3.2 Specification](https://pubs.opengroup.org/architecture/archimate3-doc/index.html) and is semantically compatible with Element concept part of [ArchiMate® 3.2 Language Structure](https://pubs.opengroup.org/architecture/archimate3-doc/ch-Language-Structure.html).
 
 ## Features
 
-| Feature         | Requirement         |
-|:----------------|:--------------------|
-| Name            | Mandatory           |
-| Documentation   | Optional            |
-| Properties      | Optional            |
-
-
+| Feature         | Requirement         | Description |
+|:----------------|:--------------------|:------------|
+| properties      | Optional            |             |
+| imageRef        | Optional            | Reference to image within the model or referenced model to be rendered in views replacing the default iconography of the [ArchiMate®] language |
 
 ## Example
 ```ts
@@ -31,6 +31,9 @@ The resource aligned with [ArchiMate® 3.2 Specification](https://pubs.opengroup
 		identifier: "xxx",
 		info: {
 			type: "xx"
+			viewRef: "http://viewref"
 		}
 	}
 ```
+
+[ArchiMate®]: https://www.opengroup.org/archimate-forum/archimate-overview
